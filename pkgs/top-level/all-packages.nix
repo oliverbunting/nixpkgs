@@ -32277,6 +32277,8 @@ with pkgs;
 
   openroad = libsForQt5.callPackage ../applications/science/electronics/openroad { };
 
+  opentimer = callPackage ../applications/science/electronics/opentimer { };
+
   pcb = callPackage ../applications/science/electronics/pcb { };
 
   qucs = callPackage ../applications/science/electronics/qucs { };
